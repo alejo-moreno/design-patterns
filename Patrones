@@ -1,0 +1,35 @@
+Patrones
+
+Categorias de patrones:
+    Patrones de arquitectura:
+     Como se estructuran los proyectos
+        ej: Layers,MVC,EDA
+    
+    
+    Patrones de diseño:
+     Como se implementa cada clase o modulo
+      ej: Factory Method, Facade, Strategy, Observer
+      
+      Factory Method (Patron de diseño de creación de clase) :
+       Crea una instancia de varias clases derivadas
+      Abstract Factory (Patron de diseño de creación de objeto) :
+       Crea una instancia de varias familias de clases
+       Builder (Patron de diseño de creación de objeto) :
+       Separa la construccion de un objeto de su representacion
+       Prototype (Patron de diseño de creación de objeto) :
+       Una instancia que puede ser clonada completamente para su uso
+       Singleton (Patron de diseño de creación de objeto) :
+       Una clase de la cual solo una instancia puede existir
+      
+      
+      
+      Principio Solid
+       Single responsibility: La clase solo debe responder para lo que fue creada
+       Open Closed: Abierta para delegar caracteristicas pero cerrada en cuanto a la abstracción
+       Liskov Substitution: Poder sustituir una clase heredada por la clase base   (Perro -> Animal)
+       Interface Segregation: Poder Hacer interfaces detalladas para requerimientos especificos de cliente
+       Dependency Inversion: La dependencia debe ser de las clases base más no de las heredadas
+      
+    Idioms/Modismos
+      Ventajas del lenguaje aplicado
+        ej: Convenciones del lenguaje, Uso de memoria 
