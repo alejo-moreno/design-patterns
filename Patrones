@@ -7,21 +7,32 @@ Categorias de patrones:
     
     
     Patrones de diseño:
-     Como se implementa cada clase o modulo
+     Como se implementa las clases o modulos
       ej: Factory Method, Facade, Strategy, Observer
       
-      Factory Method (Patron de diseño de creación de clase) :
-       Crea una instancia de varias clases derivadas
-      Abstract Factory (Patron de diseño de creación de objeto) :
-       Crea una instancia de varias familias de clases
-       Builder (Patron de diseño de creación de objeto) :
-       Separa la construccion de un objeto de su representacion
-       Prototype (Patron de diseño de creación de objeto) :
-       Una instancia que puede ser clonada completamente para su uso
-       Singleton (Patron de diseño de creación de objeto) :
-       Una clase de la cual solo una instancia puede existir
+      Patrones creacionales:
+       Son patrones que solucionan problemas de creación de objetos. Permiten encapsular y abstraer dicha creación.
+        *Factory Method (Patron de diseño de creación de clase) :
+         Crea una instancia de varias clases derivadas
+        *Abstract Factory (Patron de diseño de creación de objeto) :
+         Crea una instancia de varias familias de clases
+        *Builder (Patron de diseño de creación de objeto) :
+         Separa la construccion de un objeto de su representacion
+        *Prototype (Patron de diseño de creación de objeto) :
+         Una instancia que puede ser clonada completamente para su uso
+        *Singleton (Patron de diseño de creación de objeto) :
+         Una clase de la cual solo una instancia puede existir
       
-      
+      Patrones estructurales:
+        Son patrones que solucionan problemas de composición (agregación) de clases y objetos        
+         *Adapter
+          Adapta una interfaz para que pueda ser utilizada por una clase que de otro modo no podría utilizarla.
+         *Facade
+          Provee de una interfaz unificada simple para acceder a una interfaz o grupo de interfaces de un subsistema.
+         
+    
+       
+        
       
       Principio Solid
        Single responsibility: La clase solo debe responder para lo que fue creada
@@ -33,3 +44,15 @@ Categorias de patrones:
     Idioms/Modismos
       Ventajas del lenguaje aplicado
         ej: Convenciones del lenguaje, Uso de memoria 
+        
+        
+Bibliografia:
+
+// Source Making Design Patterns
+https://sourcemaking.com/design_patterns
+
+//Structure and Interpretation of Computer Programs
+https://mitpress.mit.edu/sicp/full-text/book/book.html
+
+//Abstract Factory Javascript
+http://www.dofactory.com/javascript/abstract-factory-design-pattern

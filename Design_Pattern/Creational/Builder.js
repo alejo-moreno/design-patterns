@@ -1,6 +1,4 @@
-
 class Director {
-
     construct(builder) {
         builder.step1();
         builder.step2();
@@ -24,7 +22,6 @@ class CarBuilder {
     getResult() {
         return this.car;
     }
-
 }
 
 class Car {

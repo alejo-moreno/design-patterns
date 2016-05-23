@@ -1,15 +1,15 @@
 {
-  "name": "python",
-  "version": "1.0.0",
-  "description": "",
-  "main": "BuildPattern.js",
-  "scripts": {
-    "start": "babel-node BuildPattern.js --presets es2015"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "babel-cli": "^6.7.7",
-    "babel-preset-es2015": "^6.6.0"
-  }
+    "name": "python",
+    "version": "1.0.0",
+    "description": "",
+    "main": "BuildPattern.js",
+    "scripts": {
+        "start": "babel-node Design_Pattern/Singleton.js --presets es2015"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "babel-cli": "^6.7.7",
+        "babel-preset-es2015": "^6.6.0"
+    }
 }
