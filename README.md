@@ -13,7 +13,7 @@
       
 ###Patrones creacionales:
     Son patrones que solucionan problemas de creación de objetos. Permiten encapsular y abstraer dicha creación.
-  - **Factory Method** (Patron de diseño de creación de clase) : Crea una instancia de varias clases derivadas
+  - [Factory Method] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/FactoryMethod.py) `Patron de diseño de creación de clase` : Crea una instancia de varias clases derivadas
   - **Abstract Factory** (Patron de diseño de creación de objeto) : Crea una instancia de varias familias de clases
   - **Builder** (Patron de diseño de creación de objeto) : Separa la construccion de un objeto de su representacion
   - **Prototype** (Patron de diseño de creación de objeto) : Una instancia que puede ser clonada completamente para su uso
