@@ -31,7 +31,31 @@ Categorias de patrones:
           Provee de una interfaz unificada simple para acceder a una interfaz o grupo de interfaces de un subsistema.
          *Decorator
           Añade comportamientos o responsabilidades a los objetos dinamicamente
-    
+          
+      Patrones de comportamiento:
+        Son patrones que guian la interacción entre los objetos            
+          *Chain of responsibility
+            Encadena una petición a varios objetos para que cada uno interactue especificamente
+          *Command
+            Encapsula una petición de comandos en un solo objeto.
+          *Interpreter 
+            Una manera de incluir elementos del lenguaje en un programa
+          *Iterator
+            Acceso secuencial a los elementos de una colección
+          *Mediator
+            Define una comunicación simplificada entre clases (APIs)
+          *Memento
+            Captura y restaura el estado interno de un objeto
+          *Observer
+            Una forma de notificar cambios a varias clases (Publish & Subscribe)
+          *State
+            Altera el comportamiento de un objeto cuando cambia de estado (Wizards)
+          *Strategy
+            Encapsula un algoritmo dentro de una clase
+          *Template Method
+            Difiere los pasos exactos de un algoritmo a una subclase
+          *Visitor
+            Define una nueva operación a una clase sin cambiarla        
        
         
       
