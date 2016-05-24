@@ -36,16 +36,16 @@
 ###Patrones de comportamiento:
     Son patrones que guian la interacción entre los objetos            
   - **Chain of responsibility**: Encadena una petición a varios objetos para que cada uno interactue especificamente.
-  - **Command**: Encapsula una petición de comandos en un solo objeto.
+  - [Command] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Behavior/Command.py): Encapsula una petición de comandos en un solo objeto.
   - **Interpreter**: Una manera de incluir elementos del lenguaje en un programa.
   - **Iterator**: Acceso secuencial a los elementos de una colección.
   - **Mediator**: Define una comunicación simplificada entre clases (APIs).
   - **Memento**:  Captura y restaura el estado interno de un objeto.
-  - **Observer**: Una forma de notificar cambios a varias clases (Publish & Subscribe)
-  - **State**: Altera el comportamiento de un objeto cuando cambia de estado (Wizards)
-  - **Strategy**: Encapsula un algoritmo dentro de una clase
-  - **Template Method**: Difiere los pasos exactos de un algoritmo a una subclase
-  - **Visitor**: Define una nueva operación a una clase sin cambiarla 
+  - [Observer](https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Behavior/Observer.java): Una forma de notificar cambios a varias clases (Publish & Subscribe).
+  - **State**: Altera el comportamiento de un objeto cuando cambia de estado (Wizards).
+  - [Strategy](https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Behavior/Strategy.py): Encapsula un algoritmo dentro de una clase.
+  - **Template Method**: Difiere los pasos exactos de un algoritmo a una subclase.
+  - **Visitor**: Define una nueva operación a una clase sin cambiarla .
 
       
 ##Idioms/Modismos
@@ -53,7 +53,7 @@
       ej: Convenciones del lenguaje (Interfaces, Abstract, Herencia), Uso de memoria.
         
         
-##Bibliografia:
+##Bibliografia
 
 - [Source Making Design Patterns] (https://sourcemaking.com/design_patterns)
 - [Structure and Interpretation of Computer Programs] (https://mitpress.mit.edu/sicp/full-text/book/book.html)
