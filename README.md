@@ -17,7 +17,7 @@
   - [Abstract Factory] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/AbstractFactory.py) `Patron de diseño de creación de objeto`: Crea una instancia de varias familias de clases
   - [Builder] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/Builder.js) `Patron de diseño de creación de objeto`: Separa la construccion de un objeto de su representacion
   - [Singleton] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/Singleton.js)`Patron de diseño de creación de objeto` : Una clase de la cual solo una instancia puede existir  
-  - [Prototype] `Patron de diseño de creación de objeto` : Una instancia que puede ser clonada completamente para su uso
+  - **Prototype** `Patron de diseño de creación de objeto` : Una instancia que puede ser clonada completamente para su uso
   
   
 ####Principio Solid
@@ -29,9 +29,9 @@
       
 ###Patrones estructurales:
     Son patrones que solucionan problemas de composición (agregación) de clases y objetos        
-  - **Adapter**: Adapta una interfaz para que pueda ser utilizada por una clase que de otro modo no podría utilizarla.
-  - **Facade**: Provee de una interfaz unificada simple para acceder a una interfaz o grupo de interfaces de un subsistema.
-  - **Decorator**: Añade comportamientos o responsabilidades a los objetos dinamicamente.
+  - [Adapter] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Structural/Adapter.js): Adapta una interfaz para que pueda ser utilizada por una clase que de otro modo no podría utilizarla.
+  - [Facade] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Structural/Facade.py): Provee de una interfaz unificada simple para acceder a una interfaz o grupo de interfaces de un subsistema.
+  - [Decorator] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Structural/Decorator.java): Añade comportamientos o responsabilidades a los objetos dinamicamente.
           
 ###Patrones de comportamiento:
     Son patrones que guian la interacción entre los objetos            
