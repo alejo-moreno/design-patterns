@@ -29,16 +29,17 @@ Categorias de patrones:
           Adapta una interfaz para que pueda ser utilizada por una clase que de otro modo no podría utilizarla.
          *Facade
           Provee de una interfaz unificada simple para acceder a una interfaz o grupo de interfaces de un subsistema.
-         
+         *Decorator
+          Añade comportamientos o responsabilidades a los objetos dinamicamente
     
        
         
       
       Principio Solid
        Single responsibility: La clase solo debe responder para lo que fue creada
-       Open Closed: Abierta para delegar caracteristicas pero cerrada en cuanto a la abstracción
-       Liskov Substitution: Poder sustituir una clase heredada por la clase base   (Perro -> Animal)
-       Interface Segregation: Poder Hacer interfaces detalladas para requerimientos especificos de cliente
+       Open Closed: Abierta para delegar caracteristicas pero cerrada en cuanto al comportamiento de la solución.
+       Liskov Substitution: Poder sustituir una clase heredada por la clase base (Perro -> Animal)
+       Interface Segregation: Poder Hacer interfaces detalladas para requerimientos especificos de cliente (Facade)
        Dependency Inversion: La dependencia debe ser de las clases base más no de las heredadas
       
     Idioms/Modismos
