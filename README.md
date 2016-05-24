@@ -13,11 +13,12 @@
       
 ###Patrones creacionales:
     Son patrones que solucionan problemas de creación de objetos. Permiten encapsular y abstraer dicha creación.
-  - [Factory Method] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/FactoryMethod.py) `Patron de diseño de creación de clase` : Crea una instancia de varias clases derivadas
-  - **Abstract Factory** (Patron de diseño de creación de objeto) : Crea una instancia de varias familias de clases
-  - **Builder** (Patron de diseño de creación de objeto) : Separa la construccion de un objeto de su representacion
-  - **Prototype** (Patron de diseño de creación de objeto) : Una instancia que puede ser clonada completamente para su uso
-  - **Singleton** (Patron de diseño de creación de objeto) : Una clase de la cual solo una instancia puede existir
+  - [Factory Method] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/FactoryMethod.py) `Patron  de diseño de creación de clase`: Crea una instancia de varias clases derivadas
+  - [Abstract Factory] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/AbstractFactory.py) `Patron de diseño de creación de objeto`: Crea una instancia de varias familias de clases
+  - [Builder] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/Builder.js) `Patron de diseño de creación de objeto`: Separa la construccion de un objeto de su representacion
+  - [Singleton] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/Singleton.js)`Patron de diseño de creación de objeto` : Una clase de la cual solo una instancia puede existir  
+  - [Prototype] `Patron de diseño de creación de objeto` : Una instancia que puede ser clonada completamente para su uso
+  
   
 ####Principio Solid
 - [x] Single responsibility: La clase solo debe responder para lo que fue creada
