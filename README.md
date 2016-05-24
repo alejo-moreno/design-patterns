@@ -61,3 +61,4 @@
 - [Structure and Interpretation of Computer Programs] (https://mitpress.mit.edu/sicp/full-text/book/book.html)
 - [Abstract Factory Javascript] (http://www.dofactory.com/javascript/abstract-factory-design-pattern)
 - [NodeJS Design Patterns] (https://blog.risingstack.com/fundamental-node-js-design-patterns)
+- [POSA A System Of Patterns] (https://wiki.sch.bme.hu/images/9/98/Sznikak_jegyzet_Pattern-Oriented-SA_vol1.pdf)
