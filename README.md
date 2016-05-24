@@ -10,6 +10,8 @@
 ##Patrones de diseño
     Son los patrones que indican como se implementan las clases o modulos
     ej: Factory Method, Facade, Strategy, Observer, Adapter, Singleton.
+    
+![Gang of four](https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Design%20Pattern.png "Gang Of Four")
       
 ###Patrones creacionales:
     Son patrones que solucionan problemas de creación de objetos. Permiten encapsular y abstraer dicha creación.
