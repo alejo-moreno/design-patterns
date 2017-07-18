@@ -15,10 +15,10 @@
       
 ### Patrones creacionales:
     Son patrones que solucionan problemas de creación de objetos. Permiten encapsular y abstraer dicha creación.
-  - [Factory Method] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/FactoryMethod.py) `Patron  de diseño de creación de clase`: Crea una instancia de varias clases derivadas
-  - [Abstract Factory] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/AbstractFactory.py) `Patron de diseño de creación de objeto`: Crea una instancia de varias familias de clases
-  - [Builder] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/Builder.js) `Patron de diseño de creación de objeto`: Separa la construccion de un objeto de su representacion
-  - [Singleton] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/Singleton.js)`Patron de diseño de creación de objeto` : Una clase de la cual solo una instancia puede existir  
+  - [Factory Method](https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/FactoryMethod.py) `Patron  de diseño de creación de clase`: Crea una instancia de varias clases derivadas
+  - [Abstract Factory](https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/AbstractFactory.py) `Patron de diseño de creación de objeto`: Crea una instancia de varias familias de clases
+  - [Builder](https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/Builder.js) `Patron de diseño de creación de objeto`: Separa la construccion de un objeto de su representacion
+  - [Singleton](https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/Singleton.js)`Patron de diseño de creación de objeto` : Una clase de la cual solo una instancia puede existir  
   - **Prototype** `Patron de diseño de creación de objeto` : Una instancia que puede ser clonada completamente para su uso
   
   
@@ -31,14 +31,14 @@
       
 ### Patrones estructurales:
     Son patrones que solucionan problemas de composición (agregación) de clases y objetos        
-  - [Adapter] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Structural/Adapter.js): Adapta una interfaz para que pueda ser utilizada por una clase que de otro modo no podría utilizarla.
-  - [Facade] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Structural/Facade.py): Provee de una interfaz unificada simple para acceder a una interfaz o grupo de interfaces de un subsistema.
-  - [Decorator] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Structural/Decorator.java): Añade comportamientos o responsabilidades a los objetos dinamicamente.
+  - [Adapter](https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Structural/Adapter.js): Adapta una interfaz para que pueda ser utilizada por una clase que de otro modo no podría utilizarla.
+  - [Facade](https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Structural/Facade.py): Provee de una interfaz unificada simple para acceder a una interfaz o grupo de interfaces de un subsistema.
+  - [Decorator](https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Structural/Decorator.java): Añade comportamientos o responsabilidades a los objetos dinamicamente.
           
 ### Patrones de comportamiento:
     Son patrones que guian la interacción entre los objetos            
   - **Chain of responsibility**: Encadena una petición a varios objetos para que cada uno interactue especificamente.
-  - [Command] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Behavior/Command.py): Encapsula una petición de comandos en un solo objeto.
+  - [Command](https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Behavior/Command.py): Encapsula una petición de comandos en un solo objeto.
   - **Interpreter**: Una manera de incluir elementos del lenguaje en un programa.
   - **Iterator**: Acceso secuencial a los elementos de una colección.
   - **Mediator**: Define una comunicación simplificada entre clases (APIs).
@@ -57,8 +57,8 @@
         
 ## Bibliografia
 
-- [Source Making Design Patterns] (https://sourcemaking.com/design_patterns)
-- [Structure and Interpretation of Computer Programs] (https://mitpress.mit.edu/sicp/full-text/book/book.html)
-- [Abstract Factory Javascript] (http://www.dofactory.com/javascript/abstract-factory-design-pattern)
-- [NodeJS Design Patterns] (https://blog.risingstack.com/fundamental-node-js-design-patterns)
-- [POSA A System Of Patterns] (https://wiki.sch.bme.hu/images/9/98/Sznikak_jegyzet_Pattern-Oriented-SA_vol1.pdf)
+- [Source Making Design Patterns](https://sourcemaking.com/design_patterns)
+- [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sicp/full-text/book/book.html)
+- [Abstract Factory Javascript](http://www.dofactory.com/javascript/abstract-factory-design-pattern)
+- [NodeJS Design Patterns](https://blog.risingstack.com/fundamental-node-js-design-patterns)
+- [POSA A System Of Patterns](https://wiki.sch.bme.hu/images/9/98/Sznikak_jegyzet_Pattern-Oriented-SA_vol1.pdf)
