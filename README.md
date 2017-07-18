@@ -1,19 +1,19 @@
 
-#Patrones de diseño
+# Patrones de diseño
 
     
-##Patrones de arquitectura
+## Patrones de arquitectura
     Son los patrones que indican como se estructuran los proyectos
      ej: Layers, ModelViewController(MVC),EventDrivenArchitecture(EDA)
     
     
-##Patrones de diseño
+## Patrones de diseño
     Son los patrones que indican como se implementan las clases o modulos
     ej: Factory Method, Facade, Strategy, Observer, Adapter, Singleton.
     
 ![Gang of four](https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Design%20Pattern.png "Gang Of Four")
       
-###Patrones creacionales:
+### Patrones creacionales:
     Son patrones que solucionan problemas de creación de objetos. Permiten encapsular y abstraer dicha creación.
   - [Factory Method] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/FactoryMethod.py) `Patron  de diseño de creación de clase`: Crea una instancia de varias clases derivadas
   - [Abstract Factory] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Creational/AbstractFactory.py) `Patron de diseño de creación de objeto`: Crea una instancia de varias familias de clases
@@ -22,20 +22,20 @@
   - **Prototype** `Patron de diseño de creación de objeto` : Una instancia que puede ser clonada completamente para su uso
   
   
-####Principio Solid
+#### Principio Solid
 - [x] Single responsibility: La clase solo debe responder para lo que fue creada
 - [x] Open Closed: Abierta para delegar caracteristicas pero cerrada en cuanto al comportamiento de la solución.
 - [x] Liskov Substitution: Poder sustituir una clase heredada por la clase base (Perro -> Animal)
 - [x] Interface Segregation: Poder Hacer interfaces detalladas para requerimientos especificos de cliente (Facade)
 - [x] Dependency Inversion: La dependencia debe ser de las clases base más no de las heredadas
       
-###Patrones estructurales:
+### Patrones estructurales:
     Son patrones que solucionan problemas de composición (agregación) de clases y objetos        
   - [Adapter] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Structural/Adapter.js): Adapta una interfaz para que pueda ser utilizada por una clase que de otro modo no podría utilizarla.
   - [Facade] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Structural/Facade.py): Provee de una interfaz unificada simple para acceder a una interfaz o grupo de interfaces de un subsistema.
   - [Decorator] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Structural/Decorator.java): Añade comportamientos o responsabilidades a los objetos dinamicamente.
           
-###Patrones de comportamiento:
+### Patrones de comportamiento:
     Son patrones que guian la interacción entre los objetos            
   - **Chain of responsibility**: Encadena una petición a varios objetos para que cada uno interactue especificamente.
   - [Command] (https://github.com/alejo-moreno/designpatterns/blob/master/Design_Pattern/Behavior/Command.py): Encapsula una petición de comandos en un solo objeto.
@@ -50,12 +50,12 @@
   - **Visitor**: Define una nueva operación a una clase sin cambiarla .
 
       
-##Idioms/Modismos
+## Idioms/Modismos
     Son las ventajas o carácterisiticas del lenguaje especifico aplicado
       ej: Convenciones del lenguaje (Interfaces, Abstract, Herencia), Uso de memoria.
         
         
-##Bibliografia
+## Bibliografia
 
 - [Source Making Design Patterns] (https://sourcemaking.com/design_patterns)
 - [Structure and Interpretation of Computer Programs] (https://mitpress.mit.edu/sicp/full-text/book/book.html)
